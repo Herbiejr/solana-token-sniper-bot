@@ -2,14 +2,14 @@
 
 An automated Solana token trading bot that detects new tokens, validates them through multiple criteria, and executes buy/sell trades via Jupiter aggregator. Features real-time monitoring, risk management, and Telegram notifications.
 
-## 🚨 Important Disclaimers
+## Important Disclaimers
 
 - **This bot involves significant financial risk. Only use funds you can afford to lose.**
 - **Automated trading can result in substantial losses. Past performance doesn't guarantee future results.**
 - **Always test with small amounts first and understand the risks involved.**
 - **Keep your private keys secure and never share them.**
 
-## ✨ Features
+## Features
 
 - **Automated Token Detection**: Listens for new tokens via webhook integration
 - **Multi-Layer Validation**: 
@@ -25,7 +25,7 @@ An automated Solana token trading bot that detects new tokens, validates them th
   - Full sniper bot with buy/sell automation
   - Sell-only mode for existing positions
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (v16 or higher)
 - Solana wallet with sufficient SOL balance
@@ -35,7 +35,7 @@ An automated Solana token trading bot that detects new tokens, validates them th
   - RugCheck API
   - Telegram Bot API (optional)
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -55,7 +55,7 @@ An automated Solana token trading bot that detects new tokens, validates them th
 
 4. **Edit the `.env` file** with your configuration (see Configuration section below)
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -105,7 +105,7 @@ The bot includes several configurable parameters in the source files:
 - `CHECK_INTERVAL_MS`: 20000ms (20 seconds)
 - `SLIPPAGE_BPS`: 200 (2% slippage)
 
-## 🏃‍♂️ Usage
+## Usage
 
 ### Running the Main Sniper Bot
 
@@ -152,7 +152,7 @@ Set up your webhook provider to send POST requests to:
 http://your-server:3000/webhook
 ```
 
-## 🔧 Customization
+## Customization
 
 ### Modifying Trading Parameters
 
@@ -175,7 +175,7 @@ if (customCondition) {
 }
 ```
 
-## 🛠️ API Dependencies
+## API Dependencies
 
 ### Jupiter Aggregator
 - **Quote API**: `https://quote-api.jup.ag/v6/quote`
@@ -197,7 +197,7 @@ if (customCondition) {
 - **Get Chat ID**: Send a message to your bot and call the getUpdates API
 - Used for trade notifications and price alerts
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -227,7 +227,7 @@ if (customCondition) {
 3. **Monitor RPC calls**: Check for rate limiting or connection issues
 4. **Verify token addresses**: Ensure mint addresses are correct and valid
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
 1. **Private Key Security**:
    - Never commit private keys to version control
@@ -248,7 +248,7 @@ if (customCondition) {
    - Set reasonable risk limits
    - Never invest more than you can afford to lose
 
-## 📊 Monitoring and Logs
+## Monitoring and Logs
 
 The bot provides extensive logging for monitoring:
 
@@ -260,18 +260,18 @@ The bot provides extensive logging for monitoring:
 
 Monitor the console output and set up log rotation for production use.
 
-## ⚖️ Legal Considerations
+## Legal Considerations
 
 - Ensure compliance with local financial regulations
 - Understand tax implications of automated trading
 - This software is provided as-is without warranties
 - Users are responsible for their own trading decisions and results
 
-## 🤝 Contributing
+## Contributing
 
 This is a specialized trading bot. Please thoroughly test any modifications before deploying with real funds.
 
-## 📄 License
+## License
 
 Use at your own risk. No warranties provided.
 
