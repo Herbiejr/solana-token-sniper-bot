@@ -1,4 +1,4 @@
-# Solana Token Sniper Bot
+# Solana Token Sniper Bot - https://hacksea.medium.com/how-to-build-an-automated-solana-trading-bot-that-works-with-all-token-dex-with-token-validation-0dfa430378d0
 
 An automated Solana token trading bot that detects new tokens, validates them through multiple criteria, and executes buy/sell trades via Jupiter aggregator. Features real-time monitoring, risk management, and Telegram notifications.
 
